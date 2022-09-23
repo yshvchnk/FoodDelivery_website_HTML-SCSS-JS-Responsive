@@ -1,0 +1,17 @@
+@media (max-width: 1200px) {
+    .order {
+        &__form {
+            margin-top: 20px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0;
+            img {
+                display: none;
+            }
+        }
+        &__input {
+            margin: 10px;
+        }
+    }
+}

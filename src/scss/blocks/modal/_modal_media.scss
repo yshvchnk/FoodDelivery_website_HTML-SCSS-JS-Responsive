@@ -1,0 +1,24 @@
+@media (max-width: 576px) {
+    .modal {
+        &__dialog {
+            width: 300px;
+            margin: 100px auto;
+
+        }
+        &__content {
+            padding: 10px;
+        }
+        &__input {
+            margin: 10px auto;
+            padding: 0;
+            width: 90%;
+
+        }
+        &__title {
+            font-size: 14px;
+        }
+        .btn {
+            width: 90%;
+        }
+    }
+}

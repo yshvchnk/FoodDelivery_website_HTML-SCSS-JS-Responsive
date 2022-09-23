@@ -1,0 +1,38 @@
+@media (max-width: 1500px) {
+    .offer .bgc_y {
+        width: 900px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .offer {
+        &__advantages {
+            display: none;
+        }
+        &__slider {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .offer .container {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .offer .bgc_y {
+        width: 100vw;
+    }
+    .offer {
+        &__text {
+            margin-bottom: 20px;
+            width: auto;
+        }
+        &__slider {
+            width: 90%;
+            padding: 0 20px;
+        }
+    }
+}

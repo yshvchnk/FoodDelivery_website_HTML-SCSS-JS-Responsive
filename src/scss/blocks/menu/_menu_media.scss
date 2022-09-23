@@ -1,0 +1,11 @@
+@media (max-width: 1200px) {
+    .menu .container {
+        flex-wrap: wrap;
+
+    }
+    .menu {
+        &__item {
+            margin: 10px;
+        }
+    }
+}
